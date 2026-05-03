@@ -1,13 +1,13 @@
-#import "templates/course.typ": course, definition, example, theorem, remark
+#import "config/course.typ": *
+#import "styles/notes.typ": apply_notes_style, main-outline
 
-#show: course.with(
-  title: "Lecture Notes on Data Analysis",
-  subtitle: "Probability, Statistics, and Practical Inference",
-  author: "Steven",
-  term: "2026",
+#show: apply_notes_style.with(
+  title: course_title,
+  author: course_author,
 )
 
-#outline(title: "Contents")
+#main-outline()
+
 #pagebreak()
 
 #include "lectures/01-introduction.typ"

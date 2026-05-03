@@ -1,4 +1,4 @@
-#import "../templates/course.typ": definition, example
+#import "../styles/notes.typ": note, example, theorem, definition
 
 = Introduction
 

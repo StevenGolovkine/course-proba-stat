@@ -1,4 +1,4 @@
-#import "../templates/course.typ": example, remark
+#import "../styles/notes.typ": note, example, theorem, definition, remark
 
 = Descriptive Statistics
 
